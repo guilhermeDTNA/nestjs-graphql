@@ -12,6 +12,10 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
+## Prerequisites
+
+Download and enable [Redis](https://redis.io/docs/latest/operate/oss_and_stack/install/archive/install-redis/)
+
 ## Project setup
 
 ```bash
@@ -43,7 +47,7 @@ $ npm run test:cov
 
 ## Example query
 
-- URL do servidor: [http://localhost:3005/graphql](http://localhost:3005/graphql)
+- Server URL: [http://localhost:3005/graphql](http://localhost:3005/graphql)
 
 ```graphql
 query {
